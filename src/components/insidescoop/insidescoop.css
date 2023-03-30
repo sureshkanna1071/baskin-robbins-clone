@@ -1,0 +1,44 @@
+.br__insidescoop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+.br__insidescoop_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto 5px;
+}
+
+.br__insidescoop_heading-logo {
+    display: block;
+    height: 100px;
+}
+
+.br__insidescoop_heading span {
+    font-weight: 650;
+    font-size: 2rem;
+}
+
+.br__insidescoop_carousal-container {
+    width: 30%;
+}
+
+.br__insidescoop_carousal-container img {
+    width: 100%;
+    height: 250px
+}
+
+.br__insidescoop_carousal-container h2, 
+.br__insidescoop_carousal-container p {
+    padding: 0 10px;
+}
+
+.br__insidescoop_carousal-container p {
+    font-size: large;
+    font-weight: 480;
+}

@@ -1,0 +1,26 @@
+.br__shopbyrange {
+    width: 100%;
+    display: 'flex';
+    flex-direction: column;
+    height: 700px;
+}
+
+.br__shopbyrange_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto 5px;
+}
+
+.br__shopbyrange_heading-logo {
+    display: block;
+    height: auto;
+    width: 50px;
+}
+
+.br__shopbyrange_heading span {
+    font-weight: 650;
+    font-size: 2rem;
+}

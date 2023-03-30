@@ -1,0 +1,64 @@
+.br__cta {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.br__cta img {
+    height: 130px;
+    width: 30%;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.br__cta_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.br__cta_links a {
+    text-decoration: none;
+}
+
+.br__cta_links p {
+    margin: 0;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 480;
+}
+
+.br__cta_newsletter {
+    width: 40%;
+}
+
+.br__cta_newsletter input {
+    width: 50%;
+    height: 37px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    font-size: 1rem;
+    padding-left: 25px;
+}
+
+.br__cta_newsletter button {
+    background-color: #F20C90;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: 12.5px;
+    border-color: #F20C90;
+    border-style: none;
+    line-height: 1.75rem;
+    position: relative;
+    right: 5px;
+    width:  25%;
+    cursor: pointer;
+}
+
+.br__cta_newsletter button:hover {
+    background-color: #D1007B;
+}

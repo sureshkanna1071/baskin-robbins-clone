@@ -1,0 +1,36 @@
+.br__card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 20px;
+}
+
+.br__card:hover {
+    background-color: #FAB2BD;
+}
+
+.br__card:hover button{
+    color: white;
+    background-color: #F20C90;
+    border: 1px solid #F20C90;
+}
+
+.br__card img {
+    height: auto;
+    width: 300px;
+}
+
+.br__card h2 {
+    color: #08279d;
+}
+
+.br__card button {
+    color: #F20C90;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid #F20C90;
+    padding: 0.75rem 2rem;
+}

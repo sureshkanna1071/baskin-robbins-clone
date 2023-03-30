@@ -1,0 +1,26 @@
+.br__whatsnew {
+    width: 100%;
+    display: 'flex';
+    flex-direction: column;
+    height: 700px;
+}
+
+.br__whatsnew_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto 5px;
+}
+
+.br__whatsnew_heading-logo {
+    display: block;
+    height: auto;
+    width: 50px;
+}
+
+.br__whatsnew_heading span {
+    font-weight: 650;
+    font-size: 2rem;
+}
