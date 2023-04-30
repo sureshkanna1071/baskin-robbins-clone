@@ -1,6 +1,6 @@
 import React from 'react'
 import "./cta.css"
-import ctalogo from "../../assets/cta-logo.PNG"
+import ctalogo from "../../assets/cta-logos.png"
 
 const CTA = () => {
   return (
@@ -19,7 +19,7 @@ const CTA = () => {
         <a><p>Blog</p></a>
       </div>
       <div className='br__cta_newsletter'>
-        <h3>Subscribe to news letter</h3>
+        <h3 className='br__cta_newsletter_title'>Subscribe to news letter</h3>
         <input placeholder='enter your email' />
         <button>SUBMIT</button>
       </div>

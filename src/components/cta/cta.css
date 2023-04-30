@@ -23,6 +23,10 @@
     text-decoration: none;
 }
 
+#dark .br__cta_links {
+    color: white;
+}
+
 .br__cta_links p {
     margin: 0;
     cursor: pointer;
@@ -32,6 +36,10 @@
 
 .br__cta_newsletter {
     width: 40%;
+}
+
+#dark .br__cta_newsletter_title {
+    color: white;
 }
 
 .br__cta_newsletter input {

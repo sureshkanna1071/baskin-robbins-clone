@@ -1,12 +1,12 @@
 import React from 'react'
 import "./productcard.css"
-import vanilla from "../../assets/vanilla.webp"
+import Mississippi_Mud from "../../assets/Mississippi_Mud.webp"
 
 const ProductCard = () => {
   return (
     <div className='br__card' >
-        <img src={vanilla} alt="product" />
-        <h2>Vegan Vanilla</h2>
+        <img src={Mississippi_Mud} alt="product" />
+        <h2>Mississippi Mud</h2>
         <button>ORDER NOW</button>
     </div>
   )

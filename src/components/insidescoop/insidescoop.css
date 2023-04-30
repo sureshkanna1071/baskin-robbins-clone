@@ -5,6 +5,18 @@
     height: 700px;
 }
 
+#dark .br__insidescoop_carousal-container p {
+    color: white;
+}
+
+#dark .br__insidescoop_title {
+    color: white;
+}
+
+#dark .br__insidescoop_desc {
+    color: white;
+}
+
 .br__insidescoop_heading {
     display: flex;
     flex-direction: column;

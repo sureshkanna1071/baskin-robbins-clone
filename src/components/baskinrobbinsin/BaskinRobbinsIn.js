@@ -1,6 +1,6 @@
 import React from 'react'
 import "./baskinrobbinsin.css"
-import br from "../../assets/br.png"
+import br from "../../assets/brs.png"
 import curves from "../../assets/curves.png"
 
 const BaskinRobbinsIn = () => {
