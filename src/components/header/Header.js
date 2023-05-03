@@ -5,11 +5,13 @@ import { IconButton } from '@mui/material';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { ThemeContext } from "../../App";
+import Modal from '../modal/Modal';
 
 const Header = () => {
   const {theme, toggleTheme} = useContext(ThemeContext);
 
   return (
+    <>
     <div className='br__header'>
       <div>
         <a href='/'><img  className='br__header-logo' src={logos} alt="logo" /></a>
@@ -20,6 +22,9 @@ const Header = () => {
           <IconButton onClick={() => toggleTheme()} sx={{marginLeft: "25px"}} >{theme === "light" ? <LightModeIcon sx={{color: "#07219B"}} /> : <DarkModeIcon sx={{color: "#07219B"}} />}</IconButton>
       </div>
     </div>
+    <Modal />
+    </>
+    
   )
 }
 
