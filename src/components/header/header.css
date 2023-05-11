@@ -17,6 +17,10 @@
     background-color: #705d56;
 }
 
+#dark .br__header_temp {
+    color: white;
+}
+
 .br__header-logo {
     height: 90px;
     width: 300px;
@@ -27,7 +31,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: 500px;
 }
 
 .br__header_container_button {
