@@ -24,3 +24,8 @@
     font-weight: 650;
     font-size: 2rem;
 }
+
+.br__whatsnew_carousal {
+    width: 60%;
+    margin: 0 auto;
+}

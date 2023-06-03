@@ -8,7 +8,7 @@ const RangeCard = () => {
     <div className='br__rangecard'>
         <div className='br__rangecard_container'>
             <img src={rolls} alt="product" />
-            <h2>Ice Cream Roll Cakes</h2>
+            <h4>Ice Cream Roll Cakes</h4>
             <button>ORDER NOW</button>
         </div>
     </div>

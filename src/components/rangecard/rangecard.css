@@ -1,6 +1,6 @@
 .br__rangecard {
     width: 320px;
-    height: 490px;
+    height: 430px;
     display: flex;
     align-items: flex-end;
     
@@ -8,10 +8,11 @@
 
 .br__rangecard_container {
     display: flex;
-    width: 350px;
+    width: 300px;
+    height: 410px;
     background-color: #07219B;
     background-image: url(../../assets/drip.png);
-    background-size: 350px 450px;
+    background-size: 300px 410px;
     background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +25,13 @@
     height: auto;
     width: 350px;
     position: relative;
-    left: 20px;
-    bottom: 65px;
+    left: 10px;
+    bottom: 45px;
 }
 
-.br__rangecard_container h2 {
+.br__rangecard_container h4 {
     color: white;
+    margin: 0 0 5px 0;
 }
 
 .br__rangecard_container button {

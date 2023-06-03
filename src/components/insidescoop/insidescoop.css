@@ -36,8 +36,13 @@
     font-size: 2rem;
 }
 
+.br__insidescoop_carousal {
+    width: 70%;
+    margin: 50px auto;
+}
+
 .br__insidescoop_carousal-container {
-    width: 30%;
+    width: 500px;
 }
 
 .br__insidescoop_carousal-container img {

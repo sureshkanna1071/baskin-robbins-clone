@@ -1,11 +1,11 @@
-.br__insidescoop {
+.br__baskinrobbinsin {
     width: 100%;
     display: flex;
     flex-direction: column;
     height: 700px;
 }
 
-.br__insidescoop_heading {
+.br__baskinrobbinsin_heading {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,13 +14,20 @@
     margin: 50px auto 5px;
 }
 
-.br__insidescoop_heading-logo {
+.br__baskinrobbinsin_heading-logo {
     display: block;
     height: 100px;
 }
 
-.br__insidescoop_heading span {
+.br__baskinrobbinsin_heading span {
     font-weight: 650;
     font-size: 2rem;
 }
 
+.br__baskinrobbinsin_carousal {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
